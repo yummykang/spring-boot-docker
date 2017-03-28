@@ -1,4 +1,4 @@
-FROM frolvlad/alpine-oraclejdk8:slim
+FROM yummykang/java8:latest
 VOLUME /tmp
 ADD spring-boot-docker app.jar
 RUN sh -c 'touch /app.jar'
